@@ -40,7 +40,7 @@ This project uses machine learning to analyze and predict customer churn in a te
 | Model | Mean CV F1 (churn class) |
 |---|---:|
 | Logistic Regression | 0.598 |
-| Random Forest | 0.577 |
+| Random Forest | 0.576 |
 | Decision Tree | 0.560 |
 
 Logistic Regression achieved the highest initial cross-validation F1-score under the tested settings. Grid search selected `C=0.1` and `class_weight="balanced"`, with a best cross-validation F1-score of **0.633**.
