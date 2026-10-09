@@ -1,0 +1,24 @@
+# Local-only notebook backups
+*_backup.ipynb
+*backup*.ipynb
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+.vscode/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# IBM dataset - download from the official source
+data/Telco-Customer-Churn.csv
